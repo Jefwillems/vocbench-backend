@@ -1,5 +1,5 @@
 FROM redhat-openjdk18-openshift:latest
 
-COPY . /opt/app-root/src
+COPY . /home
 
-# RUN bash /opt/app-src/src/bin/st_server_run
+RUN bash /home/bin/st_server_run
