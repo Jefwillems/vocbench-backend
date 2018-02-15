@@ -15,10 +15,8 @@ RUN apt-get update && \
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886 && \
     apt-get update && \
     apt-get install -y --no-install-recommends oracle-java8-installer oracle-java8-set-default && \
-    apt-get install dos2unix && \
     apt-get clean all
 
 COPY . /opt/
-RUN dos2unix /opt/bin/*
 #RUN chmod +x /opt/vocbench-backup/bin/st_server_run
 RUN /opt/bin/st_server_run server
