@@ -1,0 +1,1 @@
+/bin/sh -c cd /Users/jef/Dev/Lab9k/vocbench-test/semantic-turkey/st-codegen-processor && /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/javac @/Users/jef/Dev/Lab9k/vocbench-test/semantic-turkey/st-codegen-processor/target/classes/org.codehaus.plexus.compiler.javac.JavacCompiler1167231315292787769arguments

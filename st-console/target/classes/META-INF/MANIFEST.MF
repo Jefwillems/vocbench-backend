@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1518709632953
+Build-Jdk: 1.8.0_162
+Built-By: jef
+Bundle-Description: Karaf's custom console for Semantic Turkey
+Bundle-DocURL: http://art.uniroma2.it
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: Semantic Turkey Console
+Bundle-SymbolicName: manual
+Bundle-Vendor: ART Group, University of Rome, Tor Vergata
+Bundle-Version: 4.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.karaf.branding;version="4.0.0.SNAPSHOT"
+Spring-Context: *;public-context:=false
+Tool: Bnd-1.50.0
