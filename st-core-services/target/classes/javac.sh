@@ -1,1 +1,0 @@
-/bin/sh -c cd /Users/jef/Dev/Lab9k/vocbench-test/semantic-turkey/st-core-services && /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/javac @/Users/jef/Dev/Lab9k/vocbench-test/semantic-turkey/st-core-services/target/classes/org.codehaus.plexus.compiler.javac.JavacCompiler574418567966319046arguments
