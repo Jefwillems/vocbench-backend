@@ -6,7 +6,7 @@ FROM registry.access.redhat.com/rhel7
 # chown -R sksuser:sksuser /home/sksuser
 ENV JAVA_VERSION 8u31
 ENV BUILD_VERSION b13
-
+RUN subscription-manager attach --auto
 # Upgrading system
 RUN yum -y install wget
 
