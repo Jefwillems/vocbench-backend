@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/rhel7
 
 RUN groupadd -g 433 sksuser && \ 
-    adduser -u 431 -G sksuser -b /home/sksuser -s /sbin/nologin -D && \
+    adduser -u 431 -G sksuser -b /home/sksuser -s /sbin/nologin --gid 433 -D && \
     mkdir -p /home/sksuser && \ 
     chown -R sksuser:sksuser /home/sksuser
 
