@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/rhel7
 
-RUN addgroup -g 433 sksuser && \ 
+RUN groupadd -g 433 sksuser && \ 
     adduser -u 431 -G sksuser -h /home/sksuser -s /sbin/nologin -g "Skosmos vocbench user" sksuser -D && \
     mkdir -p /home/sksuser && \ 
     chown -R sksuser:sksuser /home/sksuser
