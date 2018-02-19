@@ -3,7 +3,7 @@
 	<id>bin</id>
 
 	<formats>
-		<format></format>
+		<format>zip</format>
 	</formats>
 	
 	<fileSets>
